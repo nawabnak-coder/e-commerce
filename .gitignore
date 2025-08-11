@@ -1,0 +1,18 @@
+# Java
+backend/target/
+backend/.idea/
+backend/*.iml
+
+# Node
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/.cache/
+
+# Database
+*.db
+*.sql
+
+# Environment
+.env
+.DS_Store
