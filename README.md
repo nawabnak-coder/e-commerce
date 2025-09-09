@@ -25,20 +25,20 @@ Before running this application, ensure you have the following installed on your
 - An IDE like **IntelliJ IDEA**, **VS Code**, or **Eclipse** (recommended)
 
 
-## 📦 Project Structure
+## 📁 Directory Descriptions
 
-src/main/java/com/nakserver/app/
-├── App.java # Main application class
-├── config/ # Configuration classes
-├── controller/ # REST controllers
-├── dto/ # Data Transfer Objects
-├── enums/ # Enumeration types
-├── exceptions/ # Custom exception handling
-├── model/ # Entity models
-├── repository/ # Data access layer
-├── request/ # Request objects
-├── response/ # Response objects
-└── service/ # Business logic layer
+- **src/main/java/com/nakserver/app/**
+- **App.java** - Main entry point of the Spring Boot application
+- **config/** - Contains configuration classes (security, database, etc.)
+- **controller/** - REST controllers that handle HTTP requests
+- **dto/** - Data Transfer Objects for API requests and responses
+- **enums/** - Enumeration types used throughout the application
+- **exceptions/** - Custom exception classes and global exception handlers
+- **model/** - Entity classes that map to database tables
+- **repository/** - Data access layer interfaces (Spring Data JPA repositories)
+- **request/** - Specific request objects for API endpoints
+- **response/** - Specific response objects for API endpoints
+- **service/** - Business logic layer interfaces and implementations
 
 
 ## ⚙️ Configuration & Setup
