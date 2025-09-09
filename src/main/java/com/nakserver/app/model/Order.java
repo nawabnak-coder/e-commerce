@@ -1,5 +1,6 @@
 package com.nakserver.app.model;
 
+import com.nakserver.app.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
