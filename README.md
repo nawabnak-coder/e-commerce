@@ -114,11 +114,12 @@ java -jar target/e-commerce-1.0-SNAPSHOT.jar
    5 Open a Pull Request
 
 
+## License
 📄 License
-
 This project is open source and available under the [Apache2 License](LICENSE).
 
 
+## Contact
 👥 Contact
 
 Md Nawab Ali Khan - nawabnak@gmail.com
