@@ -116,7 +116,7 @@ java -jar target/e-commerce-1.0-SNAPSHOT.jar
 
 📄 License
 
-This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details.
+This project is open source and available under the [Apache2 License](LICENSE).
 
 
 👥 Contact
