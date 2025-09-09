@@ -121,6 +121,6 @@ This project is licensed under the Apache License 2.0 - see the LICENSE.md file 
 
 👥 Contact
 
-Nawab Ali Khan - nawabnak@gmail.com
+Md Nawab Ali Khan - nawabnak@gmail.com
 
 Project Link: https://github.com/nawabnak-coder/e-commerce
