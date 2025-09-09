@@ -164,11 +164,11 @@ java -jar target/e-commerce-1.0-SNAPSHOT.jar
 
    1 Fork the Project
 
-   2 Create your Feature Branch (git checkout -b feature/AmazingFeature)
+   2 Create your Feature Branch ```bash (git checkout -b feature/AmazingFeature)```
 
-   3 Commit your Changes (git commit -m 'Add some AmazingFeature')
+   3 Commit your Changes ```bash (git commit -m 'Add some AmazingFeature')```
 
-   4 Push to the Branch (git push origin feature/AmazingFeature)
+   4 Push to the Branch ```bash (git push origin feature/AmazingFeature)```
 
    5 Open a Pull Request
 
@@ -188,3 +188,4 @@ Project Link: https://github.com/nawabnak-coder/e-commerce
 
 If you have any questions or issues, please open an issue in the repository or contact the development team.
 
+## Happy Coding! 🎉
