@@ -87,6 +87,9 @@ src/main/java/com/nakserver/app/
 | POST   | `/api/orders`           | Place a new order               |
 | GET    | `/api/users/{userId}/orders` | Get orders for a user       |
 
+
+
+
 ## 🛠️ Building for Production
 
 To create a production-ready JAR file:
@@ -112,8 +115,7 @@ java -jar target/e-commerce-1.0-SNAPSHOT.jar
    4 Push to the Branch (git push origin feature/AmazingFeature)
 
    5 Open a Pull Request
-
-
+```
 ## License
 📄 License
 This project is open source and available under the [Apache2 License](LICENSE).
@@ -125,3 +127,4 @@ This project is open source and available under the [Apache2 License](LICENSE).
 Md Nawab Ali Khan - nawabnak@gmail.com
 
 Project Link: https://github.com/nawabnak-coder/e-commerce
+
