@@ -28,17 +28,17 @@ Before running this application, ensure you have the following installed on your
 ## 📦 Project Structure
 
 src/main/java/com/nakserver/app/
-├── App.java                    # Main application class
-├── config/                     # Configuration classes
-├── controller/                 # REST controllers
-├── dto/                       # Data Transfer Objects
-├── enums/                     # Enumeration types
-├── exceptions/                # Custom exception handling
-├── model/                     # Entity models
-├── repository/                # Data access layer
-├── request/                   # Request objects
-├── response/                  # Response objects
-└── service/                   # Business logic layer
+├── App.java # Main application class
+├── config/ # Configuration classes
+├── controller/ # REST controllers
+├── dto/ # Data Transfer Objects
+├── enums/ # Enumeration types
+├── exceptions/ # Custom exception handling
+├── model/ # Entity models
+├── repository/ # Data access layer
+├── request/ # Request objects
+├── response/ # Response objects
+└── service/ # Business logic layer
 
 
 ## ⚙️ Configuration & Setup
