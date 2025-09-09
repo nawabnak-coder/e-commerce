@@ -76,7 +76,7 @@ Before running this application, ensure you have the following installed on your
     ```bash
     mvn spring-boot:run
     ```
-    Or by running the main class `ECommerceApplication` (likely located in `src/main/java/com/nakserver/app/ECommerceApplication.java`) directly from your IDE.
+    Or by running the main class `App` (likely located in `src/main/java/com/nakserver/app/App.java`) directly from your IDE.
 
     The application will start on `http://localhost:8080`.
 
