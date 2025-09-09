@@ -1,6 +1,6 @@
-# E-Commerce Application
+## E-Commerce Backend API
 
-A modern, RESTful e-commerce backend application built with **Spring Boot 3**, designed to be robust, scalable, and efficient.
+A robust and scalable e-commerce backend API built with Java and Spring Boot. This project provides a complete set of features for managing products, users, orders, shopping carts, and categories in an online store.
 
 ## 🚀 Technologies Used
 
@@ -13,6 +13,7 @@ A modern, RESTful e-commerce backend application built with **Spring Boot 3**, d
 - **Lombok** (for reducing boilerplate code)
 - **MySQL** (database)
 - **Maven** (build tool & dependency management)
+- **RESTful Web Services**
 
 ## 📋 Prerequisites
 
@@ -22,6 +23,23 @@ Before running this application, ensure you have the following installed on your
 - **Maven 3.6** or later
 - **MySQL** 5.7 or later (or 8.0)
 - An IDE like **IntelliJ IDEA**, **VS Code**, or **Eclipse** (recommended)
+
+
+## 📦 Project Structure
+
+src/main/java/com/nakserver/app/
+├── App.java                    # Main application class
+├── config/                     # Configuration classes
+├── controller/                 # REST controllers
+├── dto/                       # Data Transfer Objects
+├── enums/                     # Enumeration types
+├── exceptions/                # Custom exception handling
+├── model/                     # Entity models
+├── repository/                # Data access layer
+├── request/                   # Request objects
+├── response/                  # Response objects
+└── service/                   # Business logic layer
+
 
 ## ⚙️ Configuration & Setup
 
@@ -62,31 +80,67 @@ Before running this application, ensure you have the following installed on your
 
     The application will start on `http://localhost:8080`.
 
-## 🗂️ Project Structure
-
-src/main/java/com/nakserver/app/
-├── controller/ # REST controllers to handle HTTP requests
-├── service/ # Business logic layer
-├── repository/ # Data access layer (JPA repositories)
-├── model/ # Entity classes (e.g., Product, User, Order)
-├── dto/ # Data Transfer Objects for requests and responses
-└── config/ # Configuration classes (e.g., ModelMapper config)
 
 
-## 🧪 API Endpoints (Example)
+## 📚 API Documentation
+User Endpoints
 
-*Replace this section with your actual API documentation. Here is an example structure.*
+    GET /api/v1/users - Get all users
 
-| Method | Endpoint                | Description                     |
-| :----- | :---------------------- | :------------------------------ |
-| GET    | `/api/products`         | Get all products                |
-| GET    | `/api/products/{id}`    | Get a product by ID             |
-| POST   | `/api/products`         | Create a new product            |
-| PUT    | `/api/products/{id}`    | Update an existing product      |
-| DELETE | `/api/products/{id}`    | Delete a product                |
-| POST   | `/api/orders`           | Place a new order               |
-| GET    | `/api/users/{userId}/orders` | Get orders for a user       |
+    GET /api/v1/users/{id} - Get user by ID
 
+    POST /api/v1/users - Create a new user
+
+    PUT /api/v1/users/{id} - Update user
+
+    DELETE /api/v1/users/{id} - Delete user
+
+Product Endpoints
+
+    GET /api/v1/products - Get all products
+
+    GET /api/v1/products/{id} - Get product by ID
+
+    POST /api/v1/products - Create a new product
+
+    PUT /api/v1/products/{id} - Update product
+
+    DELETE /api/v1/products/{id} - Delete product
+
+Cart Endpoints
+
+    GET /api/v1/carts/{userId} - Get user's cart
+
+    POST /api/v1/carts/{userId}/items - Add item to cart
+
+    PUT /api/v1/carts/items/{itemId} - Update cart item
+
+    DELETE /api/v1/carts/items/{itemId} - Remove item from cart
+
+Order Endpoints
+
+    GET /api/v1/orders - Get all orders
+
+    GET /api/v1/orders/{id} - Get order by ID
+
+    POST /api/v1/orders - Create a new order
+
+    PUT /api/v1/orders/{id}/status - Update order status
+
+Category Endpoints
+
+    GET /api/v1/categories - Get all categories
+
+    POST /api/v1/categories - Create a new category
+
+
+## 🧪 Testing
+
+Run the test suite with:
+```bash
+
+mvn test
+```
 
 
 
@@ -102,7 +156,9 @@ bash
 
 java -jar target/e-commerce-1.0-SNAPSHOT.jar
 
-🤝 Contributing
+```
+
+## 🤝 Contributing
 
 [Explain your contribution guidelines here.]
 
@@ -115,7 +171,7 @@ java -jar target/e-commerce-1.0-SNAPSHOT.jar
    4 Push to the Branch (git push origin feature/AmazingFeature)
 
    5 Open a Pull Request
-```
+
 ## License
 📄 License
 This project is open source and available under the [Apache2 License](LICENSE).
@@ -127,4 +183,8 @@ This project is open source and available under the [Apache2 License](LICENSE).
 Md Nawab Ali Khan - nawabnak@gmail.com
 
 Project Link: https://github.com/nawabnak-coder/e-commerce
+
+## 🆘 Support
+
+If you have any questions or issues, please open an issue in the repository or contact the development team.
 
