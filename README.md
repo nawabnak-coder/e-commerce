@@ -171,17 +171,17 @@ java -jar target/e-commerce-1.0-SNAPSHOT.jar
 
    2 Create your Feature Branch 
    ```bash  
-   (git checkout -b feature/AmazingFeature)
+   git checkout -b feature/AmazingFeature
    ```
 
    3 Commit your Changes 
    ```bash 
-   (git commit -m 'Add some AmazingFeature')
+   git commit -m 'Add some AmazingFeature'
    ```
 
    4 Push to the Branch 
    ```bash 
-   (git push origin feature/AmazingFeature)
+   git push origin feature/AmazingFeature
    ```
 
    5 Open a Pull Request
