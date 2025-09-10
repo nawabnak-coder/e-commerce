@@ -2,6 +2,11 @@
 
 A robust and scalable e-commerce backend API built with Java and Spring Boot. This project provides a complete set of features for managing products, users, orders, shopping carts, and categories in an online store.
 
+![Java](https://img.shields.io/badge/Java-17%2B-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1%2B-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+
 ## 🚀 Technologies Used
 
 - **Java 17**
